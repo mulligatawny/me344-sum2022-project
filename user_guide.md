@@ -51,6 +51,8 @@ The python script plots streamwise velocity profile for a plane channel flow at 
 pip install python
 ```
 
+**Note:** If `pip` is not already installed on your system, use the following link to download and install it: (https://pip.pypa.io/en/stable/installation/).
+
 To install the dependencies, download the `requirements.txt` file from the top level of the repository, and run
 
 ```
