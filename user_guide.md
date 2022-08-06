@@ -63,3 +63,6 @@ Run the script with
 python3 nalu_post_proc.py
 ```
 
+The output should be as below:
+
+![Streamwise velocity plot](uplus.jpg)
