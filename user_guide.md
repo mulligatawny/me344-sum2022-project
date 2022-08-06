@@ -67,4 +67,4 @@ python3 nalu_post_proc.py
 
 The output should be as below:
 
-![Streamwise velocity plot](uplus.jpg)
+![Streamwise velocity plot](https://github.com/mulligatawny/me344-sum2022-project/blob/main/uplus.png)
