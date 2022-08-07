@@ -16,19 +16,19 @@ The executable has been installed under `$HOME/codes/nalu/build/Nalu/build/` and
 ## Running a simulation
 
 _NaluCFD_ has a regression suite - a set of CFD simulation cases that provide coverage of all the features of the codebase - that is run nightly. We will run one of 
-these cases to verify that the installation works as expected. All the required files for the simulation have been collected into the directory `test-simulation`. 
+these cases to verify that the installation works as expected. All the required files for the simulation have been collected into the directory `channel`. 
 
 ```
-cd $HOME/test-simulation
+cd $HOME/channel
 ```
 
-To run the simulation on the compute node using 16 MPI ranks:
+To run the simulation on the compute node using 32 MPI ranks:
 
 ```
 sbatch job.script
 ```
 
-The output files are written to `$HOME/test-simulation/probe1`
+The output files are written to `$HOME/channel/probe1`
 
 ## Post-processing 
 ### Note: all commands in this section must be run from a shell on your local computer.
